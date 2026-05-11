@@ -1,4 +1,4 @@
-import Header from "../component/header"
+import Header from "../src/assets/component/header"
 import { Outlet } from "react-router-dom"
 
 function Layout() {
