@@ -1,0 +1,9 @@
+/* Ei line-ta delete kore din: @import "tailwindcss"; */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: sans-serif;
+}
