@@ -6,16 +6,21 @@ function Header() {
   return (
     <div className="bg-gradient-to-r from-purple-900 via-purple-500 to-purple-900 w-full overflow-x-hidden">
 
-      <div className="max-w-[1400px] mx-auto flex justify-between items-center px-4 sm:px-6 md:px-10 lg:px-16 py-4">
+      <div className="max-w-[1400px] mx-auto flex justify-between items-center px-4 sm:px-6 md:px-10 lg:px-1 py-4">
 
         {/* Logo */}
-        <div>
-          <img
-            className="w-24 sm:w-28 md:w-32 h-auto"
-            src={logo}
-            alt="logo"
-          />
+        <div className="flex items-center gap-4 ">
+          <div className="bg-white p-2 rounded rounded-full">
+            <img
+              className="w-24 sm:w-28 md:w-14 h-auto"
+              src={logo}
+              alt="logo"
+            />
+
+          </div>
+          <h1 className="text-2xl font-bold text-white">STUDY DHAR</h1>
         </div>
+
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center gap-10">
@@ -71,7 +76,7 @@ function Header() {
         <div className="lg:hidden">
           <img
             className="w-8 h-8 cursor-pointer"
-            src={menu   }
+            src={menu}
             alt="menu"
           />
         </div>
